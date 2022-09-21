@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a class="nav" href="Home.html">Home</a> |
+
+    </nav>
+		<form action="LoginStudent.php" method="post">
+            Student ID: <input type="text" name="stud_id" id="stud_id" required><br><br>
+            <button type="submit" >Login Student</button>
+        </form>
+		<button onclick="createStudent()">Create Student</button>
+	</body>
+	</center>
+	<script>
+	function createStudent() {
+		window.location.href='CreateStudent.html';
+	}
+	</script>
+</html>

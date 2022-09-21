@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+h1{
+    font-size: 48px;
+}
+p1 {
+    font-size: 22px;
+    color: rgb(0, 89, 255);
+}
+
+a {
+    color: blue;
+}
+
+    a:hover {
+        color: red;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
